@@ -86,22 +86,6 @@ body {
   font-size: 18px;
   cursor: pointer; }
 
-.header__menu a {
-  font-size: 18px;
-  text-decoration: none;
-  color: #1c1c1c; }
-
-.header__overlay {
-  content: "";
-  display: block;
-  position: fixed;
-  width: 50%;
-  height: 100%;
-  background-color: #000;
-  right: 0;
-  top: 0;
-  opacity: 0; }
-
 .header__hiddenMenu {
   display: block;
   position: fixed;
@@ -130,3 +114,11 @@ body {
   top: 5px;
   left: 20px;
   cursor: pointer; }
+
+.header__menu a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #1c1c1c; }
+
+.header__menu--hideMenu {
+  display: none; }
