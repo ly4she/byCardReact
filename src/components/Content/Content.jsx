@@ -7,6 +7,7 @@ export default function Content() {
     <div className="content">
     <div className="content__logo">
       <h2>Узнай первым о появлении билетов в продаже</h2>
+
     </div>
 
     <Films />
