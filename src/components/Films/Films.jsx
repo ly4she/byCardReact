@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Film from './Film.jsx';
+import Film from '../Film/Film.jsx';
 
 export default class Films extends Component {
 	state = {
@@ -25,7 +25,7 @@ export default class Films extends Component {
 		const { films } = this.state;
 		return(
 		<div className="films">
-			{films.map((element, i) => { return <Film film = {element} key = {i} />})}
+			{films.map((element, i) => <Film film = {element} key = {i} />)}
 		</div>
 		);
 	}

@@ -1,12 +1,11 @@
 import React from 'react';
 
-export default function Film({film, key}) {
+export default function Film(props) {
 	
-	const {dateStart, title, image} = film;
+	const {dateStart, title, image} = props.film;
 	
-	console.log({key});
 	return (
-		<div key={key} className="films__item">
+		<div className="films__item">
 			<div className="films__date">
 				{dateStart}
 			</div>

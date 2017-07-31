@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Films from './Films.jsx';
+import Films from '../Films/Films.jsx';
+//import './Content.css';
 
 export default function Content() {
 	return(
