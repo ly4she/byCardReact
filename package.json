@@ -2,7 +2,7 @@
   "name": "green-meadow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ly4she.github.io/byCard",
+  "homepage": "https://ly4she.github.io/byCardReact",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "node-sass-chokidar": "^0.0.3",
