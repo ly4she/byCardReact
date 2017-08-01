@@ -120,5 +120,8 @@ body {
   text-decoration: none;
   color: #1c1c1c; }
 
-.header__menu--hideMenu {
+.header__menu_hideMenu {
   display: none; }
+
+.header__menu_showMenu {
+  display: block; }
