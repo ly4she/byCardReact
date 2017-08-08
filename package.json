@@ -9,6 +9,7 @@
     "npm-run-all": "^4.0.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-mdc-web": "^0.14.0",
     "react-scripts": "1.0.10"
   },
   "scripts": {

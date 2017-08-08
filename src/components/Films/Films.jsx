@@ -12,7 +12,7 @@ export default class Films extends Component {
 	}
 
 	getFilms = () => {
-	fetch('https://gist.githubusercontent.com/Kirit0s/53a9820793c1cdf22a9bfb1b71dbc84d/raw/14c5ee2ff6f9fef5e5dbd19b93c28ec45be32791/db')
+	fetch('http://82.202.226.205:3000/bycard')
 	.then(response => response.json())
 	.then(data => {
 		this.setState({
