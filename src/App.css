@@ -1,28 +1,7 @@
-@font-face {
-  font-family: "roboto-example";
-  font-weight: normal;
-  font-style: normal;
-  src: url("./fonts/RobotoRegular/RobotoRegular.eot");
-  src: url("./fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("./fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("./fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "roboto-example";
-  font-weight: bold;
-  font-style: normal;
-  src: url("./fonts/RobotoBold/RobotoBold.eot");
-  src: url("./fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("./fonts/RobotoBold/RobotoBold.woff") format("woff"), url("./fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  src: url("./fonts/MaterialIconsFont/MaterialIcons-Regular.eot");
-  src: url("./fonts/MaterialIconsFont/MaterialIcons-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/MaterialIconsFont/MaterialIcons-Regular.woff") format("woff"), url("./fonts/MaterialIconsFont/MaterialIcons-Regular.ttf") format("truetype"); }
-
 body {
   margin: 0;
   background-color: #eee;
-  font-family: "roboto-example", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Nueve, sans-serif; }
 
 .content {
   display: flex;
@@ -33,7 +12,7 @@ body {
     margin-bottom: 30px; }
     .content__logo h2 {
       color: #fff;
-      font-weight: 200;
+      font-weight: 400;
       font-size: 18px;
       padding: 0 20px; }
 
@@ -55,7 +34,7 @@ body {
       color: #1c1c1c;
       font-size: 18px;
       padding: 15px 0;
-      font-weight: 100; }
+      font-weight: 400; }
 
 @media only screen and (min-width: 992px) {
   .header {
