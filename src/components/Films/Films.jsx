@@ -12,7 +12,7 @@ export default class Films extends Component {
 	}
 
 	getFilms = () => {
-	fetch('http://82.202.226.205:3000/bycard')
+	fetch('https://green-meadow.tk/api/bycard')
 	.then(response => response.json())
 	.then(data => {
 		this.setState({

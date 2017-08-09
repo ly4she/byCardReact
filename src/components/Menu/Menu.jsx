@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import {Link} from 'react-router-dom';
 import {Button, Drawer, DrawerHeader, DrawerHeaderContent, DrawerContent, Navigation} from 'react-mdc-web';
 
 export default class Menu extends Component {
@@ -29,9 +29,9 @@ export default class Menu extends Component {
             </DrawerHeader>
             <DrawerContent>
               <Navigation>
-                <a href='#' selected>Bus</a>
-                <a href='#'>Railway</a>
-                <a href='#'>Bike</a>
+                <Link to="/LogReg">LogReg</Link>
+                <Link to="/Cabinet">Cabinet</Link>
+                <Link to="/">Films</Link>
               </Navigation>
             </DrawerContent>
           </Drawer>
