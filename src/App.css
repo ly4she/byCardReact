@@ -89,6 +89,8 @@ body {
   cursor: pointer;
   top: 10px;
   padding: 0; }
+  .header__hiddenMenuBtn:hover {
+    background-color: #000; }
 
 .header__menuBtn {
   color: #000;
@@ -103,6 +105,8 @@ body {
   left: 10px;
   cursor: pointer;
   padding: 0; }
+  .header__menuBtn:hover {
+    background-color: #000; }
 
 .header__menu a {
   font-size: 18px;
@@ -112,10 +116,6 @@ body {
   min-width: 0px; }
 
 @media only screen and (min-width: 992px) {
-  .header__hiddenMenuBtn {
-    display: none; }
-  .header__menuBtn {
-    display: none; }
   .header__hiddenMenu {
     position: static;
     background-color: transparent;

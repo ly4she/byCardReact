@@ -11,6 +11,8 @@
     cursor: pointer
     top: 10px
     padding: 0
+    &:hover
+      background-color: #000
   &__menuBtn
     color: #000
     background-color: #fff
@@ -24,6 +26,8 @@
     left: 10px
     cursor: pointer
     padding: 0
+    &:hover
+      background-color: #000
   &__menu
     a
       font-size: $fz
@@ -32,10 +36,10 @@
     min-width: 0px
 @media only screen and (min-width : 992px)
   .header
-    &__hiddenMenuBtn
-      display: none
-    &__menuBtn
-      display: none
+    // &__hiddenMenuBtn
+    //   display: none
+    // &__menuBtn
+    //   display: none
     &__hiddenMenu
       position: static
       background-color: transparent
