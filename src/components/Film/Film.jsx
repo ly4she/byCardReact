@@ -22,7 +22,7 @@ export default function Film(props) {
 				{title}
 			</div>
 			<img className="films__image" src={image} alt="" />
-			<Button rased primary className="films__subscribe">подписаться</Button>
+			<Button raised primary className="films__subscribe">подписаться</Button>
 		</div>
 		)
 }
